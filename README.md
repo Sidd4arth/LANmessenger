@@ -1,22 +1,5 @@
 # LAN Messenger
 
-A beautiful, serverless peer-to-peer chat application for local area networks.
-
-![Version](https://img.shields.io/badge/version-1.0.20-blue)
-![License](https://img.shields.io/badge/license-MIT-green)
-
-## Features
-
-- 🚀 **Serverless** - No central server required, fully peer-to-peer
-- 🔍 **Auto-Discovery** - Automatically finds peers on your LAN
-- 💬 **Instant Messaging** - Real-time text chat via WebRTC
-- 📁 **File Sharing** - Send files of any size with progress tracking
-- 💾 **Message History** - Persistent local storage of conversations
-- 🎨 **Premium UI** - Modern dark theme with glassmorphism effects
-- 🔒 **Private** - All communication stays on your local network
-
-## Quick Start
-
 ### Installation
 
 ```bash
@@ -30,35 +13,6 @@ npm start
 npm run dev
 ```
 
-### Usage
-
-1. **Set your username** in the input field at the top
-2. **Wait for peers** to appear in the sidebar (automatic discovery)
-3. **Click on a peer** to start chatting
-4. **Send messages** by typing and pressing Enter
-5. **Share files** by clicking the + button
-
-## How It Works
-
-### Architecture
-
-- **Peer Discovery**: UDP broadcast on port 41234
-- **Signaling**: UDP messaging on port 41235
-- **Data Transfer**: WebRTC peer-to-peer data channels
-- **Storage**: LocalStorage for message history
-
-### Technology Stack
-
-- **Electron** - Cross-platform desktop app framework
-- **WebRTC** - Peer-to-peer communication (via SimplePeer)
-- **UDP** - Network discovery and signaling
-- **HTML/CSS/JS** - Modern web technologies
-
-## Network Requirements
-
-- All devices must be on the same local network
-- UDP ports 41234 and 41235 must be accessible
-- No internet connection required
 
 ## File Structure
 
@@ -101,11 +55,3 @@ lanmessenger1.0.20/
 - [ ] Screen sharing
 - [ ] Desktop notifications
 - [ ] Mobile app version
-
-## License
-
-MIT License - feel free to use and modify!
-
-## Credits
-
-Built with ❤️ using Electron and WebRTC
